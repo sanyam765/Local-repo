@@ -8,8 +8,8 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - name:  Greet the contributor
+      - name: Greet the contributor
         uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          pr-message: "👋 Thanks for your first pull request! We appreciate your contribution."
+          pr-message: "👋  Thanks for your first pull request! We appreciate your contribution."
